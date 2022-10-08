@@ -35,7 +35,7 @@ group_gc = 30
 
 # !!! 一键部署如果没问题则不需要动，Server 会自行根据你的域名生成 server_url
 # 修正一键部署，请自行替换 ssr.rs 为你的域名,
-# server_url = "https://ssr.rs/report"
+server_url = "https://ss.jfjs.cc"
 # stat_client 默认安装的路径
 workspace = "/opt/ServerStatus"
 
