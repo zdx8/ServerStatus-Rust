@@ -15,10 +15,10 @@ admin_pass = ""
 # monthstart = 1 没启用vnstat时，表示月流量从每月哪天开始统计
 # disabled = true 单机禁用，跟删除这条配置的效果一样
 hosts = [
-  {name = "h1", password = "p1", alias = "n1", location = "🏠", type = "kvm"},
-  {name = "h2", password = "p2", alias = "n2", location = "🏢", type = "kvm", disabled = false},
-  {name = "h3", password = "p3", alias = "n3", location = "🏡", type = "kvm", monthstart = 1},
-  {name = "h4", password = "p4", alias = "n4", location = "🏡", type = "kvm", notify = true},
+  {name = "hk-2", password = "p1", alias = "n1", location = "🏠", type = "kvm"},
+  {name = "hk-5", password = "p2", alias = "n2", location = "🏢", type = "kvm", disabled = true},
+  {name = "tw-1", password = "p3", alias = "n3", location = "🏡", type = "kvm", monthstart = 1},
+  {name = "tw-2", password = "p4", alias = "n4", location = "🏡", type = "kvm", notify = true},
 ]
 
 # 动态注册模式，不再需要针对每一个主机做单独配置
